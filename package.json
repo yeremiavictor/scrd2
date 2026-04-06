@@ -1,15 +1,16 @@
 {
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "mysql2": "^3.18.2"
   },
   "name": "scrd2",
   "version": "1.0.0",
   "description": "",
   "main": "mahasiswa.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
